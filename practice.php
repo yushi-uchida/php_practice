@@ -31,3 +31,28 @@ $_calendar = [
     "December" => "12月",
 ];
 echo $_calendar["December"];
+$name = yushi;
+if ($name < yushi) {
+echo "私はyushiではありません";
+} else {
+  echo "私はyushiです";
+}
+$total = 0;
+for ($i = 0; $i <= 1000; $i++) {
+    $total += $i;
+}
+echo $total;
+$fruits = array("apple", "orange", "banana", "grape", "peach",);
+echo count($fruits);
+for ($i = 0; $i < count($fruits); $i++) {
+    echo "". $fruits[$i];
+    echo "/";
+}
+
+$start = 1;
+$end = 105;
+for($i = $start; $i < $end; $i++){
+    if($i % 5 == 0){
+        echo $i;
+    }
+}
