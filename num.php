@@ -1,5 +1,6 @@
 
 <?php
+//PHP/Laravel 04 課題3
 function num($arr) {
     $total = 1;
     foreach($arr as $x) {
