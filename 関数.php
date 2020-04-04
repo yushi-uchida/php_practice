@@ -1,4 +1,5 @@
 <?php
+//PHP/Laravel 04 課題5
 $str = "<h1>strip_tags関数</h1>"
 ."<p>タグ除去</p>";
 echo strip_tags($str)."/n";
