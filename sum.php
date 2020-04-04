@@ -1,13 +1,21 @@
 <?php
-function sum($value) {
+//バリゲード
+function br(){
+    echo nl2br('; ');
+}
+//PHP/Laravel 04 課題1
+function pro($value) {
     $result = $value* 2;
     return $result;
 }
 
-echo sum(100);
+echo pro(100);
+br();
 
-function out($a, $b) {
+//PHP/Laravel 04 課題2
+function sum($a, $b) {
     $result2 = $a + $b;
     return $result2;
 }
-echo out(10,10);
+echo sum(10,10);
+
