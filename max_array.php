@@ -1,4 +1,5 @@
 <?php
+//PHP/Laravel 04 課題4
 function max_array($arr){
     $max_number = $arr[0];
     foreach($arr as $a){
